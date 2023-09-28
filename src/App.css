@@ -1,5 +1,35 @@
+
+
 .App {
   text-align: center;
+  display: flex;
+  background-color: #0d1117;
+
+}
+.btn{
+  width: 30%;
+  background-color: white;
+  border:2px solid white;
+  color: black;
+  padding: 20px 15px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 25px;
+  margin-top: 40px;
+  
+  cursor: pointer;
+}
+.btn:hover{
+  background-color: black;
+  color: white;
+}
+.btn_box{
+  width: 76% ;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
 }
 
 .App-logo {

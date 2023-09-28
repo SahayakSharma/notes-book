@@ -1,0 +1,81 @@
+.entry{
+    width: 75vw;
+    height: 140vh;
+    /* background-color: wheat; */
+    margin-left: 25vw;
+    
+}
+h1{
+    color: white;
+}
+.entry_wrapper{
+    width: 60%;
+    height: 70%;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 30px;
+    border: 3px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* background-color: white; */
+}
+.heading{
+    height: 10%;
+    width: 90%;
+    margin: auto;
+    color: white;
+    background-color: #0d1117;
+    text-align: center;
+    outline: none;
+    border: none;
+    padding-top: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    color: greenyellow;
+    
+}
+.notes{
+    height: 85%;
+    width: 90%;
+    margin: auto;
+    color: white;
+    outline: none;
+    border: none;
+    background-color: #0d1117;
+    padding-top: 20px;
+    font-size: 18px;
+    overflow-y: scroll;
+    padding-right: 10px;
+    text-decoration: none;
+    
+}
+/* width */
+::-webkit-scrollbar {
+    width: 3px;
+    
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: black;
+    border-radius: 5px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: white;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+hr{
+    height: 0.5px;
+    color: white;
+    background-color: white;
+    width: 90%;
+    display: block;
+    border-width: 0px;
+}
