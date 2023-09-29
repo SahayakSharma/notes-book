@@ -1,7 +1,7 @@
 
 import { useState } from 'react';
 import './App.css';
-import Sidebar from './Sidebar/Sidebar';
+
 import style from './dataentry.module.css'
 import style1 from './sidebar.module.css'
 
